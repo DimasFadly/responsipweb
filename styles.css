@@ -1,0 +1,120 @@
+/* Gaya umum untuk body dan teks */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #cfd9df, #e2ebf0); /* Background dengan gradasi dari biru muda ke putih */
+    color: #333; /* Warna teks umum */
+}
+
+/* Gaya untuk header */
+header {
+    background-color: #fff; /* Warna latar belakang header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk header */
+    padding: 10px 20px; /* Padding dalam header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #666; /* Warna tautan navigasi */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transisi warna tautan */
+}
+
+.nav-links a:hover {
+    color: #333; /* Warna tautan saat dihover */
+}
+
+.cta-button button {
+    padding: 10px 20px;
+    background-color: #9d81c8; /* Warna latar belakang tombol CTA */
+    border: none;
+    border-radius: 4px;
+    color: white; /* Warna teks tombol CTA */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transisi perubahan warna saat dihover */
+}
+
+.cta-button button:hover {
+    background-color: #7c6fa1; /* Warna latar belakang tombol saat dihover */
+}
+
+/* Gaya untuk kontainer */
+.container {
+    background-color: #fff; /* Warna latar belakang kontainer */
+    padding: 20px; /* Padding dalam kontainer */
+    border-radius: 8px; /* Sudut bulat pada kontainer */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan pada kontainer */
+    width: 80%; /* Lebar kontainer */
+    margin: 20px auto; /* Margin untuk posisi tengah */
+    color: #333; /* Warna teks dalam kontainer */
+}
+
+.container h1 {
+    font-size: 24px; /* Ukuran font untuk judul besar */
+    color: #4a4a4a; /* Warna teks judul besar */
+    margin-bottom: 20px; /* Jarak bawah dari judul */
+}
+
+.container p {
+    line-height: 1.6; /* Tinggi baris untuk paragraf */
+}
+
+/* Gaya untuk formulir */
+.form-group {
+    margin-bottom: 15px; /* Jarak bawah antar grup formulir */
+}
+
+label {
+    display: block; /* Menampilkan label sebagai blok */
+    margin-bottom: 5px; /* Jarak bawah dari label */
+    font-weight: bold; /* Ketebalan font untuk label */
+    color: #4a4a4a; /* Warna teks label */
+}
+
+input[type="number"],
+input[type="text"] {
+    width: calc(100% - 22px); /* Lebar input dengan margin */
+    padding: 10px; /* Padding dalam input */
+    border: 1px solid #ccc; /* Garis tepi input */
+    border-radius: 4px; /* Sudut bulat pada input */
+    font-size: 16px; /* Ukuran font untuk input */
+}
+
+button[type="submit"],
+button[type="button"] {
+    padding: 12px 24px; /* Padding dalam tombol */
+    background-color: #9d81c8; /* Warna latar belakang tombol */
+    border: none; /* Tidak ada garis tepi */
+    border-radius: 4px; /* Sudut bulat pada tombol */
+    color: white; /* Warna teks tombol */
+    font-weight: bold; /* Ketebalan font pada tombol */
+    cursor: pointer; /* Pointer saat dihover */
+    transition: background-color 0.3s ease; /* Transisi perubahan warna saat dihover */
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    background-color: #7c6fa1; /* Warna latar belakang tombol saat dihover */
+}
+
+/* Gaya untuk hasil cek harga */
+.result {
+    margin-top: 20px; /* Jarak atas dari hasil */
+    font-size: 18px; /* Ukuran font untuk hasil */
+    font-weight: bold; /* Ketebalan font untuk hasil */
+    color: #4a4a4a; /* Warna teks untuk hasil */
+}
